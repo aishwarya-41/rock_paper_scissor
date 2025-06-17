@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='rps.png') }}" alt="logo" id="logo">
+    </header>
+
+    <h1 align="center">"Rock, Paper, Scissors – Choose Your Move!"</h1>
+
+    <div align="center">
+        <video id="video" width="400" autoplay style="display: none;"></video><br><br>
+        <button onclick="playGame()">Play Round</button>
+        <button onclick="reset()">Reset</button>
+    </div>
+
+    <div id="resultText" align="center" style="margin-top: 20px;"></div>
+    <div id="images" align="center"></div>
+    <div id="animation" align="center" style="margin-top: 20px;"></div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

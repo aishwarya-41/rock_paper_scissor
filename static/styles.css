@@ -1,0 +1,66 @@
+#logo 
+{
+    border-radius: 200px;
+    width:100px;
+    padding: 10px;
+    place-items: left;
+}
+
+header {
+    background-color: darkslategray;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+
+h1
+{
+    color: brown;
+    font-family: monospace;
+    padding:20px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("background.png");
+    color: #333;
+    text-align: center;
+}
+
+body
+{
+    background-image: url("background.png");
+}
+
+button
+{
+    font-family: monospace;
+    background-color: darkgoldenrod;
+    border-radius: 20px;
+    padding:20px;
+    font-size:20px;
+    border:2px solid black;
+}
+
+button:hover
+{
+    background-color: darkolivegreen;
+    cursor: pointer;
+    transform: translateY(5px);
+}
+
+
+img
+{
+    padding:40px;
+    border-radius: 100px;
+}
+
+#resultText
+{
+    padding:40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
