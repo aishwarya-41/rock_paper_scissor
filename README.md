@@ -35,24 +35,24 @@ This interactive game lets users play Rock Paper Scissors against the computer. 
 - Integration: Communication between Python backend and frontend (e.g., Flask, WebSockets)
 
 # Setup Instructions
-- Clone the Repository:
-bash
-git clone https://github.com/aishwarya-41/rock_paper_scissor.git
+- Clone the Repository: <br>
+bash <br>
+git clone https://github.com/aishwarya-41/rock_paper_scissor.git <br>
 cd rock_paper_scissor
 
-- Install Python Dependencies:
-bash
-pip install library_names
+- Install Python Dependencies: <br>
+bash <br>
+pip install library_names <br>
 (Ensure you have OpenCV, Mediapipe, Flask, or other required libraries.)
 
-- Run the Application:
-bash
+- Run the Application: <br>
+bash <br>
 python app.py
 
-- Open the Game:
+- Open the Game: <br>
 Open your browser and navigate to http://localhost:5000 (or as directed).
 
-- Allow Webcam Access:
+- Allow Webcam Access: <br>
 Grant permission when prompted to use your webcam for gesture recognition.
 
 # Usage
